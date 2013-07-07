@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662CEF68177B416D00B51B50 /* hagai-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 662CEF66177B416D00B51B50 /* hagai-hd.png */; };
+		662CEF69177B416D00B51B50 /* hagai.png in Resources */ = {isa = PBXBuildFile; fileRef = 662CEF67177B416D00B51B50 /* hagai.png */; };
+		662CEF6B177B88CC00B51B50 /* whee.caf in Resources */ = {isa = PBXBuildFile; fileRef = 662CEF6A177B88CC00B51B50 /* whee.caf */; };
+		662D01A3177FA49A004F2BFB /* lost.caf in Resources */ = {isa = PBXBuildFile; fileRef = 662D01A2177FA49A004F2BFB /* lost.caf */; };
+		662D01A6177FAC3E004F2BFB /* asafcohen-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 662D01A4177FAC3E004F2BFB /* asafcohen-hd.png */; };
+		662D01A7177FAC3E004F2BFB /* asafcohen.png in Resources */ = {isa = PBXBuildFile; fileRef = 662D01A5177FAC3E004F2BFB /* asafcohen.png */; };
 		66526C1A1779E03900DFF975 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66526C191779E03900DFF975 /* QuartzCore.framework */; };
 		66526C1C1779E03900DFF975 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66526C1B1779E03900DFF975 /* OpenGLES.framework */; };
 		66526C1E1779E03900DFF975 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66526C1D1779E03900DFF975 /* OpenAL.framework */; };
@@ -28,169 +34,213 @@
 		66526C401779E03900DFF975 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526C3F1779E03900DFF975 /* Icon.png */; };
 		66526C421779E03900DFF975 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526C411779E03900DFF975 /* Icon@2x.png */; };
 		66526C451779E03900DFF975 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 66526C441779E03900DFF975 /* iTunesArtwork */; };
-		66526C4A1779E03900DFF975 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C491779E03900DFF975 /* CCAction.m */; };
-		66526C4D1779E03900DFF975 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C4C1779E03900DFF975 /* CCActionCamera.m */; };
-		66526C501779E03900DFF975 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C4F1779E03900DFF975 /* CCActionCatmullRom.m */; };
-		66526C531779E03900DFF975 /* CCActionEase.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C521779E03900DFF975 /* CCActionEase.m */; };
-		66526C561779E03900DFF975 /* CCActionGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C551779E03900DFF975 /* CCActionGrid.m */; };
-		66526C591779E03900DFF975 /* CCActionGrid3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C581779E03900DFF975 /* CCActionGrid3D.m */; };
-		66526C5C1779E03900DFF975 /* CCActionInstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C5B1779E03900DFF975 /* CCActionInstant.m */; };
-		66526C5F1779E03900DFF975 /* CCActionInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C5E1779E03900DFF975 /* CCActionInterval.m */; };
-		66526C621779E03900DFF975 /* CCActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C611779E03900DFF975 /* CCActionManager.m */; };
-		66526C651779E03900DFF975 /* CCActionPageTurn3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C641779E03900DFF975 /* CCActionPageTurn3D.m */; };
-		66526C681779E03900DFF975 /* CCActionProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C671779E03900DFF975 /* CCActionProgressTimer.m */; };
-		66526C6B1779E03900DFF975 /* CCActionTiledGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C6A1779E03900DFF975 /* CCActionTiledGrid.m */; };
-		66526C6E1779E03900DFF975 /* CCActionTween.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C6D1779E03900DFF975 /* CCActionTween.m */; };
-		66526C711779E03900DFF975 /* CCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C701779E03900DFF975 /* CCAnimation.m */; };
-		66526C741779E03900DFF975 /* CCAnimationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C731779E03900DFF975 /* CCAnimationCache.m */; };
-		66526C771779E03900DFF975 /* CCAtlasNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C761779E03900DFF975 /* CCAtlasNode.m */; };
-		66526C7A1779E03900DFF975 /* CCCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C791779E03900DFF975 /* CCCamera.m */; };
-		66526C7D1779E03900DFF975 /* CCClippingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C7C1779E03900DFF975 /* CCClippingNode.m */; };
-		66526C811779E03900DFF975 /* CCConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C801779E03900DFF975 /* CCConfiguration.m */; };
-		66526C841779E03900DFF975 /* ccDeprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C831779E03900DFF975 /* ccDeprecated.m */; };
-		66526C871779E03900DFF975 /* CCDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C861779E03900DFF975 /* CCDirector.m */; };
-		66526C8A1779E03900DFF975 /* CCDrawingPrimitives.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C891779E03900DFF975 /* CCDrawingPrimitives.m */; };
-		66526C8D1779E03900DFF975 /* CCDrawNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C8C1779E03900DFF975 /* CCDrawNode.m */; };
-		66526C901779E03900DFF975 /* CCFontDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C8F1779E03900DFF975 /* CCFontDefinition.m */; };
-		66526C931779E03900DFF975 /* ccFPSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C921779E03900DFF975 /* ccFPSImages.m */; };
-		66526C961779E03900DFF975 /* CCGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C951779E03900DFF975 /* CCGLProgram.m */; };
-		66526C991779E03900DFF975 /* ccGLStateCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C981779E03900DFF975 /* ccGLStateCache.m */; };
-		66526C9C1779E03900DFF975 /* CCGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C9B1779E03900DFF975 /* CCGrabber.m */; };
-		66526C9F1779E03900DFF975 /* CCGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C9E1779E03900DFF975 /* CCGrid.m */; };
-		66526CA21779E03900DFF975 /* CCLabelAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CA11779E03900DFF975 /* CCLabelAtlas.m */; };
-		66526CA51779E03900DFF975 /* CCLabelBMFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CA41779E03900DFF975 /* CCLabelBMFont.m */; };
-		66526CA81779E03900DFF975 /* CCLabelTTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CA71779E03900DFF975 /* CCLabelTTF.m */; };
-		66526CAB1779E03900DFF975 /* CCLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CAA1779E03900DFF975 /* CCLayer.m */; };
-		66526CAF1779E03900DFF975 /* CCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CAE1779E03900DFF975 /* CCMenu.m */; };
-		66526CB21779E03900DFF975 /* CCMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CB11779E03900DFF975 /* CCMenuItem.m */; };
-		66526CB51779E03900DFF975 /* CCMotionStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CB41779E03900DFF975 /* CCMotionStreak.m */; };
-		66526CB81779E03900DFF975 /* CCNode+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CB71779E03900DFF975 /* CCNode+Debug.m */; };
-		66526CBB1779E03900DFF975 /* CCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CBA1779E03900DFF975 /* CCNode.m */; };
-		66526CBE1779E03900DFF975 /* CCParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CBD1779E03900DFF975 /* CCParallaxNode.m */; };
-		66526CC11779E03900DFF975 /* CCParticleBatchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC01779E03900DFF975 /* CCParticleBatchNode.m */; };
-		66526CC41779E03900DFF975 /* CCParticleExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC31779E03900DFF975 /* CCParticleExamples.m */; };
-		66526CC71779E03900DFF975 /* CCParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC61779E03900DFF975 /* CCParticleSystem.m */; };
-		66526CCA1779E03900DFF975 /* CCParticleSystemQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC91779E03900DFF975 /* CCParticleSystemQuad.m */; };
-		66526CCD1779E03900DFF975 /* CCPhysicsDebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CCC1779E03900DFF975 /* CCPhysicsDebugNode.m */; };
-		66526CD01779E03900DFF975 /* CCPhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526CCF1779E03900DFF975 /* CCPhysicsSprite.mm */; };
-		66526CD31779E03900DFF975 /* CCProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CD21779E03900DFF975 /* CCProgressTimer.m */; };
-		66526CD71779E03900DFF975 /* CCRenderTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CD61779E03900DFF975 /* CCRenderTexture.m */; };
-		66526CDA1779E03900DFF975 /* CCScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CD91779E03900DFF975 /* CCScene.m */; };
-		66526CDD1779E03A00DFF975 /* CCScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CDC1779E03A00DFF975 /* CCScheduler.m */; };
-		66526CEF1779E03A00DFF975 /* CCShaderCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CEE1779E03A00DFF975 /* CCShaderCache.m */; };
-		66526CF21779E03A00DFF975 /* ccShaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CF11779E03A00DFF975 /* ccShaders.m */; };
-		66526CF51779E03A00DFF975 /* CCSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CF41779E03A00DFF975 /* CCSprite.m */; };
-		66526CF81779E03A00DFF975 /* CCSpriteBatchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CF71779E03A00DFF975 /* CCSpriteBatchNode.m */; };
-		66526CFB1779E03A00DFF975 /* CCSpriteFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CFA1779E03A00DFF975 /* CCSpriteFrame.m */; };
-		66526CFE1779E03A00DFF975 /* CCSpriteFrameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CFD1779E03A00DFF975 /* CCSpriteFrameCache.m */; };
-		66526D011779E03A00DFF975 /* CCTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D001779E03A00DFF975 /* CCTexture2D.m */; };
-		66526D041779E03A00DFF975 /* CCTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D031779E03A00DFF975 /* CCTextureAtlas.m */; };
-		66526D071779E03A00DFF975 /* CCTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D061779E03A00DFF975 /* CCTextureCache.m */; };
-		66526D0A1779E03A00DFF975 /* CCTexturePVR.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D091779E03A00DFF975 /* CCTexturePVR.m */; };
-		66526D0D1779E03A00DFF975 /* CCTileMapAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D0C1779E03A00DFF975 /* CCTileMapAtlas.m */; };
-		66526D101779E03A00DFF975 /* CCTMXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D0F1779E03A00DFF975 /* CCTMXLayer.m */; };
-		66526D131779E03A00DFF975 /* CCTMXObjectGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D121779E03A00DFF975 /* CCTMXObjectGroup.m */; };
-		66526D161779E03A00DFF975 /* CCTMXTiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D151779E03A00DFF975 /* CCTMXTiledMap.m */; };
-		66526D191779E03A00DFF975 /* CCTMXXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D181779E03A00DFF975 /* CCTMXXMLParser.m */; };
-		66526D1C1779E03A00DFF975 /* CCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D1B1779E03A00DFF975 /* CCTransition.m */; };
-		66526D1F1779E03A00DFF975 /* CCTransitionPageTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D1E1779E03A00DFF975 /* CCTransitionPageTurn.m */; };
-		66526D221779E03A00DFF975 /* CCTransitionProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D211779E03A00DFF975 /* CCTransitionProgress.m */; };
-		66526D261779E03A00DFF975 /* cocos2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D251779E03A00DFF975 /* cocos2d.m */; };
-		66526D2D1779E03A00DFF975 /* CCDirectorIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D2C1779E03A00DFF975 /* CCDirectorIOS.m */; };
-		66526D301779E03A00DFF975 /* CCES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D2F1779E03A00DFF975 /* CCES2Renderer.m */; };
-		66526D341779E03A00DFF975 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D331779E03A00DFF975 /* CCGLView.m */; };
-		66526D381779E03A00DFF975 /* CCTouchDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D371779E03A00DFF975 /* CCTouchDispatcher.m */; };
-		66526D3B1779E03A00DFF975 /* CCTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D3A1779E03A00DFF975 /* CCTouchHandler.m */; };
-		66526D3F1779E03A00DFF975 /* CCDirectorMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D3E1779E03A00DFF975 /* CCDirectorMac.m */; };
-		66526D421779E03A00DFF975 /* CCEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D411779E03A00DFF975 /* CCEventDispatcher.m */; };
-		66526D451779E03A00DFF975 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D441779E03A00DFF975 /* CCGLView.m */; };
-		66526D481779E03A00DFF975 /* CCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D471779E03A00DFF975 /* CCWindow.m */; };
-		66526D4B1779E03A00DFF975 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526D4A1779E03A00DFF975 /* base64.c */; };
-		66526D4F1779E03A00DFF975 /* CCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D4E1779E03A00DFF975 /* CCArray.m */; };
-		66526D521779E03A00DFF975 /* ccCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D511779E03A00DFF975 /* ccCArray.m */; };
-		66526D551779E03A00DFF975 /* CCFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D541779E03A00DFF975 /* CCFileUtils.m */; };
-		66526D581779E03A00DFF975 /* CCProfiling.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D571779E03A00DFF975 /* CCProfiling.m */; };
-		66526D5A1779E03A00DFF975 /* ccUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526D591779E03A00DFF975 /* ccUtils.c */; };
-		66526D5E1779E03A00DFF975 /* CCVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D5D1779E03A00DFF975 /* CCVertex.m */; };
-		66526D611779E03A00DFF975 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D601779E03A00DFF975 /* CGPointExtension.m */; };
-		66526D641779E03A00DFF975 /* NSThread+performBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D631779E03A00DFF975 /* NSThread+performBlock.m */; };
-		66526D681779E03A00DFF975 /* TGAlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D671779E03A00DFF975 /* TGAlib.m */; };
-		66526D6B1779E03A00DFF975 /* TransformUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D6A1779E03A00DFF975 /* TransformUtils.m */; };
-		66526D701779E03A00DFF975 /* ZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D6F1779E03A00DFF975 /* ZipUtils.m */; };
-		66526D751779E03A00DFF975 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D741779E03A00DFF975 /* CDAudioManager.m */; };
-		66526D791779E03A00DFF975 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D781779E03A00DFF975 /* CDOpenALSupport.m */; };
-		66526D7C1779E03A00DFF975 /* CDXMacOSXSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D7B1779E03A00DFF975 /* CDXMacOSXSupport.m */; };
-		66526D7F1779E03A00DFF975 /* CDXPropertyModifierAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D7E1779E03A00DFF975 /* CDXPropertyModifierAction.m */; };
-		66526D821779E03A00DFF975 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D811779E03A00DFF975 /* CocosDenshion.m */; };
-		66526D861779E03A00DFF975 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D851779E03A00DFF975 /* SimpleAudioEngine.m */; };
-		66526D9C1779E03A00DFF975 /* aabb.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526D9B1779E03A00DFF975 /* aabb.c */; };
+		66526C4A1779E03900DFF975 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C491779E03900DFF975 /* CCAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C4D1779E03900DFF975 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C4C1779E03900DFF975 /* CCActionCamera.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C501779E03900DFF975 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C4F1779E03900DFF975 /* CCActionCatmullRom.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C531779E03900DFF975 /* CCActionEase.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C521779E03900DFF975 /* CCActionEase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C561779E03900DFF975 /* CCActionGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C551779E03900DFF975 /* CCActionGrid.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C591779E03900DFF975 /* CCActionGrid3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C581779E03900DFF975 /* CCActionGrid3D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C5C1779E03900DFF975 /* CCActionInstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C5B1779E03900DFF975 /* CCActionInstant.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C5F1779E03900DFF975 /* CCActionInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C5E1779E03900DFF975 /* CCActionInterval.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C621779E03900DFF975 /* CCActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C611779E03900DFF975 /* CCActionManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C651779E03900DFF975 /* CCActionPageTurn3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C641779E03900DFF975 /* CCActionPageTurn3D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C681779E03900DFF975 /* CCActionProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C671779E03900DFF975 /* CCActionProgressTimer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C6B1779E03900DFF975 /* CCActionTiledGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C6A1779E03900DFF975 /* CCActionTiledGrid.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C6E1779E03900DFF975 /* CCActionTween.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C6D1779E03900DFF975 /* CCActionTween.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C711779E03900DFF975 /* CCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C701779E03900DFF975 /* CCAnimation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C741779E03900DFF975 /* CCAnimationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C731779E03900DFF975 /* CCAnimationCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C771779E03900DFF975 /* CCAtlasNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C761779E03900DFF975 /* CCAtlasNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C7A1779E03900DFF975 /* CCCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C791779E03900DFF975 /* CCCamera.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C7D1779E03900DFF975 /* CCClippingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C7C1779E03900DFF975 /* CCClippingNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C811779E03900DFF975 /* CCConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C801779E03900DFF975 /* CCConfiguration.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C841779E03900DFF975 /* ccDeprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C831779E03900DFF975 /* ccDeprecated.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C871779E03900DFF975 /* CCDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C861779E03900DFF975 /* CCDirector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C8A1779E03900DFF975 /* CCDrawingPrimitives.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C891779E03900DFF975 /* CCDrawingPrimitives.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C8D1779E03900DFF975 /* CCDrawNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C8C1779E03900DFF975 /* CCDrawNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C901779E03900DFF975 /* CCFontDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C8F1779E03900DFF975 /* CCFontDefinition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C931779E03900DFF975 /* ccFPSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C921779E03900DFF975 /* ccFPSImages.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C961779E03900DFF975 /* CCGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C951779E03900DFF975 /* CCGLProgram.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C991779E03900DFF975 /* ccGLStateCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C981779E03900DFF975 /* ccGLStateCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C9C1779E03900DFF975 /* CCGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C9B1779E03900DFF975 /* CCGrabber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526C9F1779E03900DFF975 /* CCGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526C9E1779E03900DFF975 /* CCGrid.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CA21779E03900DFF975 /* CCLabelAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CA11779E03900DFF975 /* CCLabelAtlas.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CA51779E03900DFF975 /* CCLabelBMFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CA41779E03900DFF975 /* CCLabelBMFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CA81779E03900DFF975 /* CCLabelTTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CA71779E03900DFF975 /* CCLabelTTF.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CAB1779E03900DFF975 /* CCLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CAA1779E03900DFF975 /* CCLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CAF1779E03900DFF975 /* CCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CAE1779E03900DFF975 /* CCMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CB21779E03900DFF975 /* CCMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CB11779E03900DFF975 /* CCMenuItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CB51779E03900DFF975 /* CCMotionStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CB41779E03900DFF975 /* CCMotionStreak.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CB81779E03900DFF975 /* CCNode+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CB71779E03900DFF975 /* CCNode+Debug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CBB1779E03900DFF975 /* CCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CBA1779E03900DFF975 /* CCNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CBE1779E03900DFF975 /* CCParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CBD1779E03900DFF975 /* CCParallaxNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CC11779E03900DFF975 /* CCParticleBatchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC01779E03900DFF975 /* CCParticleBatchNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CC41779E03900DFF975 /* CCParticleExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC31779E03900DFF975 /* CCParticleExamples.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CC71779E03900DFF975 /* CCParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC61779E03900DFF975 /* CCParticleSystem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CCA1779E03900DFF975 /* CCParticleSystemQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CC91779E03900DFF975 /* CCParticleSystemQuad.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CCD1779E03900DFF975 /* CCPhysicsDebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CCC1779E03900DFF975 /* CCPhysicsDebugNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CD01779E03900DFF975 /* CCPhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526CCF1779E03900DFF975 /* CCPhysicsSprite.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CD31779E03900DFF975 /* CCProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CD21779E03900DFF975 /* CCProgressTimer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CD71779E03900DFF975 /* CCRenderTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CD61779E03900DFF975 /* CCRenderTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CDA1779E03900DFF975 /* CCScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CD91779E03900DFF975 /* CCScene.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CDD1779E03A00DFF975 /* CCScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CDC1779E03A00DFF975 /* CCScheduler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CEF1779E03A00DFF975 /* CCShaderCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CEE1779E03A00DFF975 /* CCShaderCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CF21779E03A00DFF975 /* ccShaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CF11779E03A00DFF975 /* ccShaders.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CF51779E03A00DFF975 /* CCSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CF41779E03A00DFF975 /* CCSprite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CF81779E03A00DFF975 /* CCSpriteBatchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CF71779E03A00DFF975 /* CCSpriteBatchNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CFB1779E03A00DFF975 /* CCSpriteFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CFA1779E03A00DFF975 /* CCSpriteFrame.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526CFE1779E03A00DFF975 /* CCSpriteFrameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526CFD1779E03A00DFF975 /* CCSpriteFrameCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D011779E03A00DFF975 /* CCTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D001779E03A00DFF975 /* CCTexture2D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D041779E03A00DFF975 /* CCTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D031779E03A00DFF975 /* CCTextureAtlas.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D071779E03A00DFF975 /* CCTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D061779E03A00DFF975 /* CCTextureCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D0A1779E03A00DFF975 /* CCTexturePVR.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D091779E03A00DFF975 /* CCTexturePVR.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D0D1779E03A00DFF975 /* CCTileMapAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D0C1779E03A00DFF975 /* CCTileMapAtlas.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D101779E03A00DFF975 /* CCTMXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D0F1779E03A00DFF975 /* CCTMXLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D131779E03A00DFF975 /* CCTMXObjectGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D121779E03A00DFF975 /* CCTMXObjectGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D161779E03A00DFF975 /* CCTMXTiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D151779E03A00DFF975 /* CCTMXTiledMap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D191779E03A00DFF975 /* CCTMXXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D181779E03A00DFF975 /* CCTMXXMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D1C1779E03A00DFF975 /* CCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D1B1779E03A00DFF975 /* CCTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D1F1779E03A00DFF975 /* CCTransitionPageTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D1E1779E03A00DFF975 /* CCTransitionPageTurn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D221779E03A00DFF975 /* CCTransitionProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D211779E03A00DFF975 /* CCTransitionProgress.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D261779E03A00DFF975 /* cocos2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D251779E03A00DFF975 /* cocos2d.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D2D1779E03A00DFF975 /* CCDirectorIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D2C1779E03A00DFF975 /* CCDirectorIOS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D301779E03A00DFF975 /* CCES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D2F1779E03A00DFF975 /* CCES2Renderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D341779E03A00DFF975 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D331779E03A00DFF975 /* CCGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D381779E03A00DFF975 /* CCTouchDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D371779E03A00DFF975 /* CCTouchDispatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D3B1779E03A00DFF975 /* CCTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D3A1779E03A00DFF975 /* CCTouchHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D3F1779E03A00DFF975 /* CCDirectorMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D3E1779E03A00DFF975 /* CCDirectorMac.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D421779E03A00DFF975 /* CCEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D411779E03A00DFF975 /* CCEventDispatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D451779E03A00DFF975 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D441779E03A00DFF975 /* CCGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D481779E03A00DFF975 /* CCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D471779E03A00DFF975 /* CCWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D4B1779E03A00DFF975 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526D4A1779E03A00DFF975 /* base64.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D4F1779E03A00DFF975 /* CCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D4E1779E03A00DFF975 /* CCArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D521779E03A00DFF975 /* ccCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D511779E03A00DFF975 /* ccCArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D551779E03A00DFF975 /* CCFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D541779E03A00DFF975 /* CCFileUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D581779E03A00DFF975 /* CCProfiling.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D571779E03A00DFF975 /* CCProfiling.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D5A1779E03A00DFF975 /* ccUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526D591779E03A00DFF975 /* ccUtils.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D5E1779E03A00DFF975 /* CCVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D5D1779E03A00DFF975 /* CCVertex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D611779E03A00DFF975 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D601779E03A00DFF975 /* CGPointExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D641779E03A00DFF975 /* NSThread+performBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D631779E03A00DFF975 /* NSThread+performBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D681779E03A00DFF975 /* TGAlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D671779E03A00DFF975 /* TGAlib.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D6B1779E03A00DFF975 /* TransformUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D6A1779E03A00DFF975 /* TransformUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D701779E03A00DFF975 /* ZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D6F1779E03A00DFF975 /* ZipUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D751779E03A00DFF975 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D741779E03A00DFF975 /* CDAudioManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D791779E03A00DFF975 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D781779E03A00DFF975 /* CDOpenALSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D7C1779E03A00DFF975 /* CDXMacOSXSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D7B1779E03A00DFF975 /* CDXMacOSXSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D7F1779E03A00DFF975 /* CDXPropertyModifierAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D7E1779E03A00DFF975 /* CDXPropertyModifierAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D821779E03A00DFF975 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D811779E03A00DFF975 /* CocosDenshion.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D861779E03A00DFF975 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526D851779E03A00DFF975 /* SimpleAudioEngine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526D9C1779E03A00DFF975 /* aabb.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526D9B1779E03A00DFF975 /* aabb.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		66526D9E1779E03A00DFF975 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 66526D9D1779E03A00DFF975 /* ChangeLog */; };
-		66526DA21779E03A00DFF975 /* mat4stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA11779E03A00DFF975 /* mat4stack.c */; };
-		66526DA41779E03A00DFF975 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA31779E03A00DFF975 /* matrix.c */; };
-		66526DA61779E03A00DFF975 /* mat3.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA51779E03A00DFF975 /* mat3.c */; };
-		66526DA81779E03A00DFF975 /* mat4.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA71779E03A00DFF975 /* mat4.c */; };
-		66526DAA1779E03A00DFF975 /* neon_matrix_impl.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA91779E03A00DFF975 /* neon_matrix_impl.c */; };
-		66526DAC1779E03A00DFF975 /* plane.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DAB1779E03A00DFF975 /* plane.c */; };
-		66526DAE1779E03A00DFF975 /* quaternion.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DAD1779E03A00DFF975 /* quaternion.c */; };
-		66526DB01779E03A00DFF975 /* ray2.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DAF1779E03A00DFF975 /* ray2.c */; };
-		66526DB21779E03A00DFF975 /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB11779E03A00DFF975 /* utility.c */; };
-		66526DB41779E03A00DFF975 /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB31779E03A00DFF975 /* vec2.c */; };
-		66526DB61779E03A00DFF975 /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB51779E03A00DFF975 /* vec3.c */; };
-		66526DB81779E03A00DFF975 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB71779E03A00DFF975 /* vec4.c */; };
-		66526DC01779E03A00DFF975 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DBF1779E03A00DFF975 /* b2BroadPhase.cpp */; };
-		66526DC31779E03A00DFF975 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC21779E03A00DFF975 /* b2CollideCircle.cpp */; };
-		66526DC51779E03A00DFF975 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC41779E03A00DFF975 /* b2CollideEdge.cpp */; };
-		66526DC71779E03A00DFF975 /* b2CollidePolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC61779E03A00DFF975 /* b2CollidePolygon.cpp */; };
-		66526DC91779E03A00DFF975 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC81779E03A00DFF975 /* b2Collision.cpp */; };
-		66526DCC1779E03B00DFF975 /* b2Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DCB1779E03B00DFF975 /* b2Distance.cpp */; };
-		66526DCF1779E03B00DFF975 /* b2DynamicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DCE1779E03B00DFF975 /* b2DynamicTree.cpp */; };
-		66526DD21779E03B00DFF975 /* b2TimeOfImpact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DD11779E03B00DFF975 /* b2TimeOfImpact.cpp */; };
-		66526DD61779E03B00DFF975 /* b2ChainShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DD51779E03B00DFF975 /* b2ChainShape.cpp */; };
-		66526DD91779E03B00DFF975 /* b2CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DD81779E03B00DFF975 /* b2CircleShape.cpp */; };
-		66526DDC1779E03B00DFF975 /* b2EdgeShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DDB1779E03B00DFF975 /* b2EdgeShape.cpp */; };
-		66526DDF1779E03B00DFF975 /* b2PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DDE1779E03B00DFF975 /* b2PolygonShape.cpp */; };
-		66526DE41779E03B00DFF975 /* b2BlockAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DE31779E03B00DFF975 /* b2BlockAllocator.cpp */; };
-		66526DE71779E03B00DFF975 /* b2Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DE61779E03B00DFF975 /* b2Draw.cpp */; };
-		66526DEB1779E03B00DFF975 /* b2Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DEA1779E03B00DFF975 /* b2Math.cpp */; };
-		66526DEE1779E03B00DFF975 /* b2Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DED1779E03B00DFF975 /* b2Settings.cpp */; };
-		66526DF11779E03B00DFF975 /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DF01779E03B00DFF975 /* b2StackAllocator.cpp */; };
-		66526DF41779E03B00DFF975 /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DF31779E03B00DFF975 /* b2Timer.cpp */; };
-		66526DF81779E03B00DFF975 /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DF71779E03B00DFF975 /* b2Body.cpp */; };
-		66526DFB1779E03B00DFF975 /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DFA1779E03B00DFF975 /* b2ContactManager.cpp */; };
-		66526DFE1779E03B00DFF975 /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DFD1779E03B00DFF975 /* b2Fixture.cpp */; };
-		66526E011779E03B00DFF975 /* b2Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E001779E03B00DFF975 /* b2Island.cpp */; };
-		66526E051779E03B00DFF975 /* b2World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E041779E03B00DFF975 /* b2World.cpp */; };
-		66526E081779E03B00DFF975 /* b2WorldCallbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E071779E03B00DFF975 /* b2WorldCallbacks.cpp */; };
-		66526E0C1779E03B00DFF975 /* b2ChainAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E0B1779E03B00DFF975 /* b2ChainAndCircleContact.cpp */; };
-		66526E0F1779E03B00DFF975 /* b2ChainAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E0E1779E03B00DFF975 /* b2ChainAndPolygonContact.cpp */; };
-		66526E121779E03B00DFF975 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E111779E03B00DFF975 /* b2CircleContact.cpp */; };
-		66526E151779E03B00DFF975 /* b2Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E141779E03B00DFF975 /* b2Contact.cpp */; };
-		66526E181779E03B00DFF975 /* b2ContactSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E171779E03B00DFF975 /* b2ContactSolver.cpp */; };
-		66526E1B1779E03B00DFF975 /* b2EdgeAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E1A1779E03B00DFF975 /* b2EdgeAndCircleContact.cpp */; };
-		66526E1E1779E03B00DFF975 /* b2EdgeAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E1D1779E03B00DFF975 /* b2EdgeAndPolygonContact.cpp */; };
-		66526E211779E03B00DFF975 /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E201779E03B00DFF975 /* b2PolygonAndCircleContact.cpp */; };
-		66526E241779E03B00DFF975 /* b2PolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E231779E03B00DFF975 /* b2PolygonContact.cpp */; };
-		66526E281779E03B00DFF975 /* b2DistanceJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E271779E03B00DFF975 /* b2DistanceJoint.cpp */; };
-		66526E2B1779E03B00DFF975 /* b2FrictionJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E2A1779E03B00DFF975 /* b2FrictionJoint.cpp */; };
-		66526E2E1779E03B00DFF975 /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E2D1779E03B00DFF975 /* b2GearJoint.cpp */; };
-		66526E311779E03B00DFF975 /* b2Joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E301779E03B00DFF975 /* b2Joint.cpp */; };
-		66526E341779E03B00DFF975 /* b2MouseJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E331779E03B00DFF975 /* b2MouseJoint.cpp */; };
-		66526E371779E03B00DFF975 /* b2PrismaticJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E361779E03B00DFF975 /* b2PrismaticJoint.cpp */; };
-		66526E3A1779E03B00DFF975 /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E391779E03B00DFF975 /* b2PulleyJoint.cpp */; };
-		66526E3D1779E03B00DFF975 /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E3C1779E03B00DFF975 /* b2RevoluteJoint.cpp */; };
-		66526E401779E03B00DFF975 /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E3F1779E03B00DFF975 /* b2RopeJoint.cpp */; };
-		66526E431779E03B00DFF975 /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E421779E03B00DFF975 /* b2WeldJoint.cpp */; };
-		66526E461779E03B00DFF975 /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E451779E03B00DFF975 /* b2WheelJoint.cpp */; };
-		66526E4A1779E03B00DFF975 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E491779E03B00DFF975 /* b2Rope.cpp */; };
+		66526DA21779E03A00DFF975 /* mat4stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA11779E03A00DFF975 /* mat4stack.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DA41779E03A00DFF975 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA31779E03A00DFF975 /* matrix.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DA61779E03A00DFF975 /* mat3.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA51779E03A00DFF975 /* mat3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DA81779E03A00DFF975 /* mat4.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA71779E03A00DFF975 /* mat4.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DAA1779E03A00DFF975 /* neon_matrix_impl.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DA91779E03A00DFF975 /* neon_matrix_impl.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DAC1779E03A00DFF975 /* plane.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DAB1779E03A00DFF975 /* plane.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DAE1779E03A00DFF975 /* quaternion.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DAD1779E03A00DFF975 /* quaternion.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DB01779E03A00DFF975 /* ray2.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DAF1779E03A00DFF975 /* ray2.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DB21779E03A00DFF975 /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB11779E03A00DFF975 /* utility.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DB41779E03A00DFF975 /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB31779E03A00DFF975 /* vec2.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DB61779E03A00DFF975 /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB51779E03A00DFF975 /* vec3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DB81779E03A00DFF975 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 66526DB71779E03A00DFF975 /* vec4.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DC01779E03A00DFF975 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DBF1779E03A00DFF975 /* b2BroadPhase.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DC31779E03A00DFF975 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC21779E03A00DFF975 /* b2CollideCircle.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DC51779E03A00DFF975 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC41779E03A00DFF975 /* b2CollideEdge.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DC71779E03A00DFF975 /* b2CollidePolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC61779E03A00DFF975 /* b2CollidePolygon.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DC91779E03A00DFF975 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DC81779E03A00DFF975 /* b2Collision.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DCC1779E03B00DFF975 /* b2Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DCB1779E03B00DFF975 /* b2Distance.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DCF1779E03B00DFF975 /* b2DynamicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DCE1779E03B00DFF975 /* b2DynamicTree.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DD21779E03B00DFF975 /* b2TimeOfImpact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DD11779E03B00DFF975 /* b2TimeOfImpact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DD61779E03B00DFF975 /* b2ChainShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DD51779E03B00DFF975 /* b2ChainShape.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DD91779E03B00DFF975 /* b2CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DD81779E03B00DFF975 /* b2CircleShape.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DDC1779E03B00DFF975 /* b2EdgeShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DDB1779E03B00DFF975 /* b2EdgeShape.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DDF1779E03B00DFF975 /* b2PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DDE1779E03B00DFF975 /* b2PolygonShape.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DE41779E03B00DFF975 /* b2BlockAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DE31779E03B00DFF975 /* b2BlockAllocator.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DE71779E03B00DFF975 /* b2Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DE61779E03B00DFF975 /* b2Draw.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DEB1779E03B00DFF975 /* b2Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DEA1779E03B00DFF975 /* b2Math.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DEE1779E03B00DFF975 /* b2Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DED1779E03B00DFF975 /* b2Settings.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DF11779E03B00DFF975 /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DF01779E03B00DFF975 /* b2StackAllocator.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DF41779E03B00DFF975 /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DF31779E03B00DFF975 /* b2Timer.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DF81779E03B00DFF975 /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DF71779E03B00DFF975 /* b2Body.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DFB1779E03B00DFF975 /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DFA1779E03B00DFF975 /* b2ContactManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526DFE1779E03B00DFF975 /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526DFD1779E03B00DFF975 /* b2Fixture.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E011779E03B00DFF975 /* b2Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E001779E03B00DFF975 /* b2Island.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E051779E03B00DFF975 /* b2World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E041779E03B00DFF975 /* b2World.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E081779E03B00DFF975 /* b2WorldCallbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E071779E03B00DFF975 /* b2WorldCallbacks.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E0C1779E03B00DFF975 /* b2ChainAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E0B1779E03B00DFF975 /* b2ChainAndCircleContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E0F1779E03B00DFF975 /* b2ChainAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E0E1779E03B00DFF975 /* b2ChainAndPolygonContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E121779E03B00DFF975 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E111779E03B00DFF975 /* b2CircleContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E151779E03B00DFF975 /* b2Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E141779E03B00DFF975 /* b2Contact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E181779E03B00DFF975 /* b2ContactSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E171779E03B00DFF975 /* b2ContactSolver.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E1B1779E03B00DFF975 /* b2EdgeAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E1A1779E03B00DFF975 /* b2EdgeAndCircleContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E1E1779E03B00DFF975 /* b2EdgeAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E1D1779E03B00DFF975 /* b2EdgeAndPolygonContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E211779E03B00DFF975 /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E201779E03B00DFF975 /* b2PolygonAndCircleContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E241779E03B00DFF975 /* b2PolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E231779E03B00DFF975 /* b2PolygonContact.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E281779E03B00DFF975 /* b2DistanceJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E271779E03B00DFF975 /* b2DistanceJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E2B1779E03B00DFF975 /* b2FrictionJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E2A1779E03B00DFF975 /* b2FrictionJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E2E1779E03B00DFF975 /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E2D1779E03B00DFF975 /* b2GearJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E311779E03B00DFF975 /* b2Joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E301779E03B00DFF975 /* b2Joint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E341779E03B00DFF975 /* b2MouseJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E331779E03B00DFF975 /* b2MouseJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E371779E03B00DFF975 /* b2PrismaticJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E361779E03B00DFF975 /* b2PrismaticJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E3A1779E03B00DFF975 /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E391779E03B00DFF975 /* b2PulleyJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E3D1779E03B00DFF975 /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E3C1779E03B00DFF975 /* b2RevoluteJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E401779E03B00DFF975 /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E3F1779E03B00DFF975 /* b2RopeJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E431779E03B00DFF975 /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E421779E03B00DFF975 /* b2WeldJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E461779E03B00DFF975 /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E451779E03B00DFF975 /* b2WheelJoint.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66526E4A1779E03B00DFF975 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66526E491779E03B00DFF975 /* b2Rope.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		66526E501779E03B00DFF975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66526E4F1779E03B00DFF975 /* main.m */; };
 		66526E531779E03B00DFF975 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526E521779E03B00DFF975 /* AppDelegate.mm */; };
 		66526E561779E03B00DFF975 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526E551779E03B00DFF975 /* HelloWorldLayer.mm */; };
 		66526E591779E03B00DFF975 /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526E581779E03B00DFF975 /* IntroLayer.mm */; };
-		66526E5C1779E03B00DFF975 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526E5B1779E03B00DFF975 /* GLES-Render.mm */; };
+		66526E5C1779E03B00DFF975 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66526E5B1779E03B00DFF975 /* GLES-Render.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		66526E5E1779E03B00DFF975 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E5D1779E03B00DFF975 /* blocks.png */; };
+		66526E841779E1AC00DFF975 /* acorn-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E651779E1AC00DFF975 /* acorn-hd.png */; };
+		66526E851779E1AC00DFF975 /* acorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E661779E1AC00DFF975 /* acorn.png */; };
+		66526E861779E1AC00DFF975 /* bg-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E671779E1AC00DFF975 /* bg-hd.png */; };
+		66526E871779E1AC00DFF975 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E681779E1AC00DFF975 /* bg.png */; };
+		66526E881779E1AC00DFF975 /* brick_1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E691779E1AC00DFF975 /* brick_1-hd.png */; };
+		66526E891779E1AC00DFF975 /* brick_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E6A1779E1AC00DFF975 /* brick_1.png */; };
+		66526E8A1779E1AC00DFF975 /* brick_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E6B1779E1AC00DFF975 /* brick_2-hd.png */; };
+		66526E8B1779E1AC00DFF975 /* brick_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E6C1779E1AC00DFF975 /* brick_2.png */; };
+		66526E8C1779E1AC00DFF975 /* brick_3-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E6D1779E1AC00DFF975 /* brick_3-hd.png */; };
+		66526E8D1779E1AC00DFF975 /* brick_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E6E1779E1AC00DFF975 /* brick_3.png */; };
+		66526E8E1779E1AC00DFF975 /* brick_platform-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E6F1779E1AC00DFF975 /* brick_platform-hd.png */; };
+		66526E8F1779E1AC00DFF975 /* brick_platform.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E701779E1AC00DFF975 /* brick_platform.png */; };
+		66526E901779E1AC00DFF975 /* catapult_arm-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E711779E1AC00DFF975 /* catapult_arm-hd.png */; };
+		66526E911779E1AC00DFF975 /* catapult_arm.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E721779E1AC00DFF975 /* catapult_arm.png */; };
+		66526E921779E1AC00DFF975 /* catapult_base_1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E731779E1AC00DFF975 /* catapult_base_1-hd.png */; };
+		66526E931779E1AC00DFF975 /* catapult_base_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E741779E1AC00DFF975 /* catapult_base_1.png */; };
+		66526E941779E1AC00DFF975 /* catapult_base_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E751779E1AC00DFF975 /* catapult_base_2-hd.png */; };
+		66526E951779E1AC00DFF975 /* catapult_base_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E761779E1AC00DFF975 /* catapult_base_2.png */; };
+		66526E961779E1AC00DFF975 /* catapult_cup-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E771779E1AC00DFF975 /* catapult_cup-hd.png */; };
+		66526E971779E1AC00DFF975 /* catapult_cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E781779E1AC00DFF975 /* catapult_cup.png */; };
+		66526E981779E1AC00DFF975 /* fg-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E791779E1AC00DFF975 /* fg-hd.png */; };
+		66526E991779E1AC00DFF975 /* fg.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E7A1779E1AC00DFF975 /* fg.png */; };
+		66526E9A1779E1AC00DFF975 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E7B1779E1AC00DFF975 /* fire.png */; };
+		66526E9B1779E1AC00DFF975 /* head_cat-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E7C1779E1AC00DFF975 /* head_cat-hd.png */; };
+		66526E9C1779E1AC00DFF975 /* head_cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E7D1779E1AC00DFF975 /* head_cat.png */; };
+		66526E9D1779E1AC00DFF975 /* head_dog-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E7E1779E1AC00DFF975 /* head_dog-hd.png */; };
+		66526E9E1779E1AC00DFF975 /* head_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E7F1779E1AC00DFF975 /* head_dog.png */; };
+		66526E9F1779E1AC00DFF975 /* squirrel_1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E801779E1AC00DFF975 /* squirrel_1-hd.png */; };
+		66526EA01779E1AC00DFF975 /* squirrel_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E811779E1AC00DFF975 /* squirrel_1.png */; };
+		66526EA11779E1AC00DFF975 /* squirrel_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E821779E1AC00DFF975 /* squirrel_2-hd.png */; };
+		66526EA21779E1AC00DFF975 /* squirrel_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 66526E831779E1AC00DFF975 /* squirrel_2.png */; };
+		6676F1C01780827D00EFCAD8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6676F1BF1780827D00EFCAD8 /* icon.png */; };
+		6676F1C21780828100EFCAD8 /* icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 6676F1C11780828100EFCAD8 /* icon-retina.png */; };
+		6676F1C417808ADD00EFCAD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6676F1C317808ADD00EFCAD8 /* Default.png */; };
+		6676F1C617808AEE00EFCAD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6676F1C517808AEE00EFCAD8 /* Default@2x.png */; };
+		6676F1C817808B3600EFCAD8 /* default-load.png in Resources */ = {isa = PBXBuildFile; fileRef = 6676F1C717808B3600EFCAD8 /* default-load.png */; };
+		6676F1CC1780F7DC00EFCAD8 /* win.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6676F1CB1780F7DC00EFCAD8 /* win.caf */; };
+		669E73AB177C65A10076B086 /* ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 669E73A9177C65A10076B086 /* ContactManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		662CEF66177B416D00B51B50 /* hagai-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hagai-hd.png"; sourceTree = "<group>"; };
+		662CEF67177B416D00B51B50 /* hagai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hagai.png; sourceTree = "<group>"; };
+		662CEF6A177B88CC00B51B50 /* whee.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whee.caf; sourceTree = "<group>"; };
+		662D01A2177FA49A004F2BFB /* lost.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lost.caf; sourceTree = "<group>"; };
+		662D01A4177FAC3E004F2BFB /* asafcohen-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asafcohen-hd.png"; sourceTree = "<group>"; };
+		662D01A5177FAC3E004F2BFB /* asafcohen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asafcohen.png; sourceTree = "<group>"; };
 		66526C161779E03900DFF975 /* Angry Hagai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angry Hagai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66526C191779E03900DFF975 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		66526C1B1779E03900DFF975 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -569,6 +619,45 @@
 		66526E5A1779E03B00DFF975 /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		66526E5B1779E03B00DFF975 /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		66526E5D1779E03B00DFF975 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		66526E651779E1AC00DFF975 /* acorn-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acorn-hd.png"; sourceTree = "<group>"; };
+		66526E661779E1AC00DFF975 /* acorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acorn.png; sourceTree = "<group>"; };
+		66526E671779E1AC00DFF975 /* bg-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-hd.png"; sourceTree = "<group>"; };
+		66526E681779E1AC00DFF975 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		66526E691779E1AC00DFF975 /* brick_1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick_1-hd.png"; sourceTree = "<group>"; };
+		66526E6A1779E1AC00DFF975 /* brick_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_1.png; sourceTree = "<group>"; };
+		66526E6B1779E1AC00DFF975 /* brick_2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick_2-hd.png"; sourceTree = "<group>"; };
+		66526E6C1779E1AC00DFF975 /* brick_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_2.png; sourceTree = "<group>"; };
+		66526E6D1779E1AC00DFF975 /* brick_3-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick_3-hd.png"; sourceTree = "<group>"; };
+		66526E6E1779E1AC00DFF975 /* brick_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_3.png; sourceTree = "<group>"; };
+		66526E6F1779E1AC00DFF975 /* brick_platform-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick_platform-hd.png"; sourceTree = "<group>"; };
+		66526E701779E1AC00DFF975 /* brick_platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_platform.png; sourceTree = "<group>"; };
+		66526E711779E1AC00DFF975 /* catapult_arm-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "catapult_arm-hd.png"; sourceTree = "<group>"; };
+		66526E721779E1AC00DFF975 /* catapult_arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_arm.png; sourceTree = "<group>"; };
+		66526E731779E1AC00DFF975 /* catapult_base_1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "catapult_base_1-hd.png"; sourceTree = "<group>"; };
+		66526E741779E1AC00DFF975 /* catapult_base_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_base_1.png; sourceTree = "<group>"; };
+		66526E751779E1AC00DFF975 /* catapult_base_2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "catapult_base_2-hd.png"; sourceTree = "<group>"; };
+		66526E761779E1AC00DFF975 /* catapult_base_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_base_2.png; sourceTree = "<group>"; };
+		66526E771779E1AC00DFF975 /* catapult_cup-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "catapult_cup-hd.png"; sourceTree = "<group>"; };
+		66526E781779E1AC00DFF975 /* catapult_cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_cup.png; sourceTree = "<group>"; };
+		66526E791779E1AC00DFF975 /* fg-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fg-hd.png"; sourceTree = "<group>"; };
+		66526E7A1779E1AC00DFF975 /* fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fg.png; sourceTree = "<group>"; };
+		66526E7B1779E1AC00DFF975 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		66526E7C1779E1AC00DFF975 /* head_cat-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head_cat-hd.png"; sourceTree = "<group>"; };
+		66526E7D1779E1AC00DFF975 /* head_cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_cat.png; sourceTree = "<group>"; };
+		66526E7E1779E1AC00DFF975 /* head_dog-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head_dog-hd.png"; sourceTree = "<group>"; };
+		66526E7F1779E1AC00DFF975 /* head_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_dog.png; sourceTree = "<group>"; };
+		66526E801779E1AC00DFF975 /* squirrel_1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squirrel_1-hd.png"; sourceTree = "<group>"; };
+		66526E811779E1AC00DFF975 /* squirrel_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirrel_1.png; sourceTree = "<group>"; };
+		66526E821779E1AC00DFF975 /* squirrel_2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squirrel_2-hd.png"; sourceTree = "<group>"; };
+		66526E831779E1AC00DFF975 /* squirrel_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirrel_2.png; sourceTree = "<group>"; };
+		6676F1BF1780827D00EFCAD8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6676F1C11780828100EFCAD8 /* icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-retina.png"; sourceTree = "<group>"; };
+		6676F1C317808ADD00EFCAD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6676F1C517808AEE00EFCAD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6676F1C717808B3600EFCAD8 /* default-load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-load.png"; sourceTree = "<group>"; };
+		6676F1CB1780F7DC00EFCAD8 /* win.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = win.caf; path = images/win.caf; sourceTree = "<group>"; };
+		669E73A9177C65A10076B086 /* ContactManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContactManager.cpp; path = ../ContactManager.cpp; sourceTree = "<group>"; };
+		669E73AA177C65A10076B086 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactManager.h; path = ../ContactManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -595,6 +684,10 @@
 		66526C0D1779E03900DFF975 = {
 			isa = PBXGroup;
 			children = (
+				6676F1C517808AEE00EFCAD8 /* Default@2x.png */,
+				6676F1C317808ADD00EFCAD8 /* Default.png */,
+				6676F1C11780828100EFCAD8 /* icon-retina.png */,
+				6676F1BF1780827D00EFCAD8 /* icon.png */,
 				66526C2D1779E03900DFF975 /* Angry Hagai */,
 				66526C181779E03900DFF975 /* Frameworks */,
 				66526C171779E03900DFF975 /* Products */,
@@ -629,6 +722,8 @@
 		66526C2D1779E03900DFF975 /* Angry Hagai */ = {
 			isa = PBXGroup;
 			children = (
+				669E73A9177C65A10076B086 /* ContactManager.cpp */,
+				669E73AA177C65A10076B086 /* ContactManager.h */,
 				66526E511779E03B00DFF975 /* AppDelegate.h */,
 				66526E521779E03B00DFF975 /* AppDelegate.mm */,
 				66526E541779E03B00DFF975 /* HelloWorldLayer.h */,
@@ -647,6 +742,10 @@
 		66526C2E1779E03900DFF975 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				662D01A2177FA49A004F2BFB /* lost.caf */,
+				662CEF6A177B88CC00B51B50 /* whee.caf */,
+				6676F1CB1780F7DC00EFCAD8 /* win.caf */,
+				66526E641779E1AC00DFF975 /* images */,
 				66526C2F1779E03900DFF975 /* Default.png */,
 				66526C311779E03900DFF975 /* Default@2x.png */,
 				66526C331779E03900DFF975 /* Default-568h@2x.png */,
@@ -1184,6 +1283,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		66526E641779E1AC00DFF975 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6676F1C717808B3600EFCAD8 /* default-load.png */,
+				662CEF66177B416D00B51B50 /* hagai-hd.png */,
+				662CEF67177B416D00B51B50 /* hagai.png */,
+				66526E651779E1AC00DFF975 /* acorn-hd.png */,
+				66526E661779E1AC00DFF975 /* acorn.png */,
+				66526E671779E1AC00DFF975 /* bg-hd.png */,
+				66526E681779E1AC00DFF975 /* bg.png */,
+				66526E691779E1AC00DFF975 /* brick_1-hd.png */,
+				66526E6A1779E1AC00DFF975 /* brick_1.png */,
+				66526E6B1779E1AC00DFF975 /* brick_2-hd.png */,
+				66526E6C1779E1AC00DFF975 /* brick_2.png */,
+				66526E6D1779E1AC00DFF975 /* brick_3-hd.png */,
+				66526E6E1779E1AC00DFF975 /* brick_3.png */,
+				66526E6F1779E1AC00DFF975 /* brick_platform-hd.png */,
+				66526E701779E1AC00DFF975 /* brick_platform.png */,
+				66526E711779E1AC00DFF975 /* catapult_arm-hd.png */,
+				66526E721779E1AC00DFF975 /* catapult_arm.png */,
+				66526E731779E1AC00DFF975 /* catapult_base_1-hd.png */,
+				66526E741779E1AC00DFF975 /* catapult_base_1.png */,
+				66526E751779E1AC00DFF975 /* catapult_base_2-hd.png */,
+				66526E761779E1AC00DFF975 /* catapult_base_2.png */,
+				66526E771779E1AC00DFF975 /* catapult_cup-hd.png */,
+				66526E781779E1AC00DFF975 /* catapult_cup.png */,
+				66526E791779E1AC00DFF975 /* fg-hd.png */,
+				66526E7A1779E1AC00DFF975 /* fg.png */,
+				66526E7B1779E1AC00DFF975 /* fire.png */,
+				66526E7C1779E1AC00DFF975 /* head_cat-hd.png */,
+				66526E7D1779E1AC00DFF975 /* head_cat.png */,
+				66526E7E1779E1AC00DFF975 /* head_dog-hd.png */,
+				66526E7F1779E1AC00DFF975 /* head_dog.png */,
+				66526E801779E1AC00DFF975 /* squirrel_1-hd.png */,
+				66526E811779E1AC00DFF975 /* squirrel_1.png */,
+				66526E821779E1AC00DFF975 /* squirrel_2-hd.png */,
+				66526E831779E1AC00DFF975 /* squirrel_2.png */,
+				662D01A4177FAC3E004F2BFB /* asafcohen-hd.png */,
+				662D01A5177FAC3E004F2BFB /* asafcohen.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1248,6 +1390,49 @@
 				66526C451779E03900DFF975 /* iTunesArtwork in Resources */,
 				66526D9E1779E03A00DFF975 /* ChangeLog in Resources */,
 				66526E5E1779E03B00DFF975 /* blocks.png in Resources */,
+				66526E841779E1AC00DFF975 /* acorn-hd.png in Resources */,
+				66526E851779E1AC00DFF975 /* acorn.png in Resources */,
+				66526E861779E1AC00DFF975 /* bg-hd.png in Resources */,
+				66526E871779E1AC00DFF975 /* bg.png in Resources */,
+				66526E881779E1AC00DFF975 /* brick_1-hd.png in Resources */,
+				66526E891779E1AC00DFF975 /* brick_1.png in Resources */,
+				66526E8A1779E1AC00DFF975 /* brick_2-hd.png in Resources */,
+				66526E8B1779E1AC00DFF975 /* brick_2.png in Resources */,
+				66526E8C1779E1AC00DFF975 /* brick_3-hd.png in Resources */,
+				66526E8D1779E1AC00DFF975 /* brick_3.png in Resources */,
+				66526E8E1779E1AC00DFF975 /* brick_platform-hd.png in Resources */,
+				66526E8F1779E1AC00DFF975 /* brick_platform.png in Resources */,
+				66526E901779E1AC00DFF975 /* catapult_arm-hd.png in Resources */,
+				66526E911779E1AC00DFF975 /* catapult_arm.png in Resources */,
+				66526E921779E1AC00DFF975 /* catapult_base_1-hd.png in Resources */,
+				66526E931779E1AC00DFF975 /* catapult_base_1.png in Resources */,
+				66526E941779E1AC00DFF975 /* catapult_base_2-hd.png in Resources */,
+				66526E951779E1AC00DFF975 /* catapult_base_2.png in Resources */,
+				66526E961779E1AC00DFF975 /* catapult_cup-hd.png in Resources */,
+				66526E971779E1AC00DFF975 /* catapult_cup.png in Resources */,
+				66526E981779E1AC00DFF975 /* fg-hd.png in Resources */,
+				66526E991779E1AC00DFF975 /* fg.png in Resources */,
+				66526E9A1779E1AC00DFF975 /* fire.png in Resources */,
+				66526E9B1779E1AC00DFF975 /* head_cat-hd.png in Resources */,
+				66526E9C1779E1AC00DFF975 /* head_cat.png in Resources */,
+				66526E9D1779E1AC00DFF975 /* head_dog-hd.png in Resources */,
+				66526E9E1779E1AC00DFF975 /* head_dog.png in Resources */,
+				66526E9F1779E1AC00DFF975 /* squirrel_1-hd.png in Resources */,
+				66526EA01779E1AC00DFF975 /* squirrel_1.png in Resources */,
+				66526EA11779E1AC00DFF975 /* squirrel_2-hd.png in Resources */,
+				66526EA21779E1AC00DFF975 /* squirrel_2.png in Resources */,
+				662CEF68177B416D00B51B50 /* hagai-hd.png in Resources */,
+				662CEF69177B416D00B51B50 /* hagai.png in Resources */,
+				662CEF6B177B88CC00B51B50 /* whee.caf in Resources */,
+				662D01A3177FA49A004F2BFB /* lost.caf in Resources */,
+				662D01A6177FAC3E004F2BFB /* asafcohen-hd.png in Resources */,
+				662D01A7177FAC3E004F2BFB /* asafcohen.png in Resources */,
+				6676F1C01780827D00EFCAD8 /* icon.png in Resources */,
+				6676F1C21780828100EFCAD8 /* icon-retina.png in Resources */,
+				6676F1C417808ADD00EFCAD8 /* Default.png in Resources */,
+				6676F1C617808AEE00EFCAD8 /* Default@2x.png in Resources */,
+				6676F1C817808B3600EFCAD8 /* default-load.png in Resources */,
+				6676F1CC1780F7DC00EFCAD8 /* win.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,6 +1601,7 @@
 				66526E561779E03B00DFF975 /* HelloWorldLayer.mm in Sources */,
 				66526E591779E03B00DFF975 /* IntroLayer.mm in Sources */,
 				66526E5C1779E03B00DFF975 /* GLES-Render.mm in Sources */,
+				669E73AB177C65A10076B086 /* ContactManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1466,6 +1652,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1485,6 +1672,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"Angry Hagai/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1494,6 +1682,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Angry Hagai/Prefix.pch";
@@ -1512,6 +1703,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"Angry Hagai/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -1537,6 +1729,7 @@
 				66526E631779E03B00DFF975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

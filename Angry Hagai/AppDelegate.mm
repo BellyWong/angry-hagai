@@ -50,6 +50,36 @@
 		[director runWithScene: [IntroLayer scene]];
 	}
 }
+
+
+#ifdef ANDROID
+
+- (BOOL)canBecomeFirstResponder
+{
+    return YES;
+}
+
+
+
+- (void)buttonUpWithEvent:(UIEvent *)event
+{
+    switch (event.buttonCode)
+    {
+        case UIEventButtonCodeBack:
+            exit(0);
+            break;
+        case UIEventButtonCodeMenu:
+            // show menu if possible.
+            break;
+        default:
+            break;
+    }
+}
+
+
+#endif
+
+
 @end
 
 
@@ -62,6 +92,9 @@
 	// Create the main window
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
+#ifdef ANDROID
+    [UIScreen mainScreen].currentMode = [UIScreenMode /*emulatedMode:UIScreenBestEmulatedMode*/emulatedMode:UIScreenAspectFitEmulationMode];
+#endif
 	
 	// CCGLView creation
 	// viewWithFrame: size of the OpenGL view. For full screen use [_window bounds]
@@ -187,12 +220,5 @@
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];
 }
 
-- (void) dealloc
-{
-	[window_ release];
-	[navController_ release];
-	
-	[super dealloc];
-}
 @end
 
